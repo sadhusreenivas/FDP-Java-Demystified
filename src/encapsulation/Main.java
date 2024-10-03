@@ -13,7 +13,7 @@ public class Main {
 		p1 = null; // garbage
 		p2 = null;  // garbage
 		
-		new Person("Python",33).getPerson(); // 
+		new Person("Python",33).getPerson(); // anonymous object => garbage
 
 	}
 }
