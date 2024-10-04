@@ -7,9 +7,12 @@ public class EMSApp {
 		e1.getEmployee();
 		e1.calSalary();
 
-		TechEmp te1 = new TechEmp(11223, "XYZ", 100000, 10000);
+		Employee te1 = new TechEmp(11223, "XYZ", 100000, 10000); // upcasting
 		te1.getEmployee(); // all emp details with bonus
 		te1.calSalary();
+		
+	    te1.getEmployee(); // RTP
+	    te1.calSalary(); // RTP
 		
 		
 	}
